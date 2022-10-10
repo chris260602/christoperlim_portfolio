@@ -10,7 +10,7 @@
     "title": "Travelist",
     "image": "assets/images/travelist.PNG",
     "type": "School",
-    "desc":"An Ecommerce website created by me and my friends for our final project. This website is built using ReactJS for the front-end, ExpressJS for the back-end and MongoDB for the database"
+    "desc":"An Ecommerce website created by me and my friends for our university project. This website is built using ReactJS for the front-end, ExpressJS for the back-end and MongoDB for the database."
   },
   {
     "title": "Associate Member at Bina Nusantara IT Division",
@@ -18,5 +18,11 @@
     "link":"http://ict.binus.edu/",
     "type": "Work",
     "desc": "Worked with amazing people at Bina Nusantara IT Division. Made website pages using ReactJS and Typescript."
+  },
+  {
+    "title": "Hansanesia",
+    "image": "assets/images/hansanesia.png",
+    "type": "Freelance",
+    "desc": "A freelance project to create a company profile using ReactJS."
   }
 ]
