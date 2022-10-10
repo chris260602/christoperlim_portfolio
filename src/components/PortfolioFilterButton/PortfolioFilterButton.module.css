@@ -1,0 +1,15 @@
+.filterButton {
+  cursor: pointer;
+  user-select: none;
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 0 20px 20px 0;
+  background-color: var(--White);
+  color: var(--Black);
+  border-radius: 50px;
+  transition: all 0.2s;
+}
+.filterButton.active {
+  background-color: var(--Red);
+  color: var(--White);
+}

@@ -1,13 +1,273 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --Grey: #dddddd;
+  --DarkerBlack: #222831;
+  --Red: #f05454;
+  --DarkBlue: #30475e;
+  --Green: #2ecc71;
+
+  /* Text Colors */
+  --White: #ffffff;
+  --Black: #404040;
+  --DarkGrey: #cecece;
+  --LightGrey: #ededed;
+  --LightGreyTransparant: #ededed78;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+h1 {
+  font-size: 68px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 38px;
+  font-weight: 600;
+}
+h4 {
+  font-size: 28px;
+  font-weight: 600;
+}
+h5 {
+  font-size: 21px;
+  font-weight: 500;
+}
+h6 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.subhead1 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.subhead2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.subhead3 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.p1 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.p2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.p3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.p4 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6,
+body.dark .subhead1,
+body.dark .subhead2,
+body.dark .subhead3,
+body.dark .subhead3,
+body.dark .p1,
+body.dark .p2,
+.dark .p3,
+body.dark .p4 {
+  color: var(--White);
+} */
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  background-color: var(--Grey);
+  transition: background-color 0.2s;
+}
+
+body.dark {
+  background-color: var(--DarkerBlack);
+}
+.dark {
+  color: var(--White);
+}
+.Typewriter {
+  display: inline;
+  color: var(--Red);
+}
+header {
+  transition: background-color 0.2s;
+}
+header.dark {
+  background-color: var(--DarkerBlack);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--DarkBlue) !important;
+}
+.swiper {
+  transition: background-color 0.2s;
+}
+.dark .swiper-scrollbar-drag {
+  background-color: var(--White);
+}
+.dark .swiper-pagination-bullet {
+  background-color: var(--White) !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: var(--Red) !important;
+}
+.dark .swiper-pagination-bullet-active {
+  background-color: var(--Red) !important;
+}
+.swiper-scrollbar-horizontal {
+  background-color: var(--LightGreyTransparant) !important;
+}
+
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -40px; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 40px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div {
+  /* change div to reference your elements you put in <Masonry> */
+  margin-bottom: 40px;
+}
+
+.filterLine {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-bottom: 3px solid var(--DarkGrey);
+  filter: drop-shadow(0 4px 4px #000000);
+}
+.dark .filterLine {
+  border-bottom: 3px solid var(--White);
+  filter: drop-shadow(0 4px 4px #ffffff);
+}
+.notFoundTextIcon {
+  width: 100%;
+  padding: 20px 50px;
+  stroke: black;
+}
+.dark .notFoundTextIcon {
+  stroke: #dddddd;
+}
+.modal {
+  background-color: var(--Grey);
+  /* filter: drop-shadow(0 4px 100px #000000); */
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 15px 40px,
+    rgba(0, 0, 0, 0.23) 0px 12px 12px;
+}
+.dark .modal {
+  background-color: var(--DarkerBlack);
+  box-shadow: rgba(255, 255, 255, 0.19) 0px 15px 40px,
+    rgba(255, 255, 255, 0.23) 0px 12px 12px;
+}
+@media screen and (max-width: 1145px) {
+  h1 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 38px;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  h4 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  h5 {
+    font-size: 21px;
+    font-weight: 500;
+  }
+  h6 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .subhead1 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .subhead2 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .subhead3 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+@media screen and (max-width: 925px) {
+  #navActive {
+    transition: background-color 0.2s;
+  }
+  .dark #navActive {
+    background-color: var(--DarkerBlack);
+  }
+  #navActive {
+    background-color: var(--Grey);
+  }
+}
+@media screen and (max-width: 740px) {
+  h1 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .p1 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .p2 {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .p3 {
+    font-size: 15px;
+    font-weight: 500;
+  }
 }

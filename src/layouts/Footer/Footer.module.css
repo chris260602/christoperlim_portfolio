@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px 50px;
+}
+.footerLogo {
+  width: 80px;
+}
+.iconContainer {
+  display: flex;
+  align-items: center;
+}
+.iconContainer a {
+  padding: 10px;
+  margin: 0 5px;
+}
+@media screen and (max-width: 925px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer p {
+    margin: 20px 0;
+    text-align: center;
+  }
+}

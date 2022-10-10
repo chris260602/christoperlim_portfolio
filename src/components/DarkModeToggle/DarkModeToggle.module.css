@@ -1,0 +1,31 @@
+.togglePill {
+  background-color: var(--DarkBlue);
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.toggleButton {
+  background-color: var(--White);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 5px;
+  z-index: 100;
+  transition: all 0.2s;
+}
+.toggleButton.dark {
+  transform: translateX(50px);
+}
+.toggleIconContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}

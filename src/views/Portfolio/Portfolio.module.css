@@ -1,0 +1,30 @@
+.portfolioContainer {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 80px;
+  /* display: flex; */
+}
+.portfolioContainer h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.filterLine {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-bottom: 3px solid var(--DarkGrey);
+  filter: drop-shadow(0 4px 4px #000000);
+}
+.notFoundContainer {
+}
+.notFoundContainer h2 {
+  text-align: center;
+}
+@media screen and (max-width: 670px) {
+  .portfolioContainer {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 20px;
+    margin-top: 80px;
+  }
+}

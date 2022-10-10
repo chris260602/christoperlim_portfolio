@@ -1,0 +1,17 @@
+[
+  {
+    "type": "Personal"
+  },
+  {
+    "type": "Work"
+  },
+  {
+    "type": "Development"
+  },
+  {
+    "type": "Organization"
+  },
+  {
+    "type": "School"
+  }
+]

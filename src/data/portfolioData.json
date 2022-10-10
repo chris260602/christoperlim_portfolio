@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Teacher at BNCC",
+    "image": "assets/images/teacher.jpg",
+    "link": "https://bncc.net/",
+    "type": "Organization",
+    "desc":"BNCC is an organization in my University. On 2021, I taught Front-End Web Development at BNCC using HTML, CSS & JS."
+  },
+  {
+    "title": "Travelist",
+    "image": "assets/images/travelist.PNG",
+    "type": "School",
+    "desc":"An Ecommerce website created by me and my friends for our final project. This website is built using ReactJS for the front-end, ExpressJS for the back-end and MongoDB for the database"
+  },
+  {
+    "title": "Associate Member at Bina Nusantara IT Division",
+    "image": "assets/images/itdiv.PNG",
+    "link":"http://ict.binus.edu/",
+    "type": "Work",
+    "desc": "Worked with amazing people at Bina Nusantara IT Division. Made website pages using ReactJS and Typescript."
+  }
+]

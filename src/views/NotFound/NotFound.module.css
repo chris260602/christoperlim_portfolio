@@ -1,0 +1,28 @@
+.notFoundContainer {
+  max-width: 1440px;
+  min-height: calc(100vh - 233px);
+  margin: auto;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.notFoundContent {
+  width: 50%;
+}
+.notFoundContent p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.notFoundImageContainer {
+  width: 50%;
+}
+.notFoundImageContainer img {
+  width: 100%;
+}
+@media screen and (max-width: 670px) {
+  .notFoundContainer {
+    min-height: calc(100vh - 250px);
+    padding: 0 20px;
+  }
+}
