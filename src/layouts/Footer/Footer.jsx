@@ -7,10 +7,10 @@ const Footer = () => {
   return (
     <footer className={classes.footer}>
       <img src={Chris} alt="Chris" className={classes.footerLogo} />
-      <p className="subhead1">Christoper Lim © 2022</p>
+      <p className="subhead1">Christoper Lim © 2023</p>
       <div className={classes.iconContainer}>
         <a
-          href="https://www.linkedin.com/in/christoper-lim-5459b0164/"
+          href="https://www.linkedin.com/in/christoperlim1/"
           target={"_blank"}
           rel={"noreferrer"}
         >

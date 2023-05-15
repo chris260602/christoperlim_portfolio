@@ -24,5 +24,12 @@
     "image": "assets/images/hansanesia.png",
     "type": "Freelance",
     "desc": "A freelance project to create a company profile using ReactJS."
+  },
+  {
+    "title": "Frontend Engineer at Vidio",
+    "image": "assets/images/vidio.png",
+    "link":"https://www.vidio.com/",
+    "type": "Work",
+    "desc": "Worked as a Frontend Engineer to create quality code, following TDD Principles and updating old code to match with eslint rules."
   }
 ]
