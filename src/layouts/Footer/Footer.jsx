@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className={classes.footer}>
       <img src={Chris} alt="Chris" className={classes.footerLogo} />
-      <p className="subhead1">Christoper Lim © 2023</p>
+      <p className="subhead1">Christoper Lim © 2024</p>
       <div className={classes.iconContainer}>
         <a
           href="https://www.linkedin.com/in/christoperlim1/"

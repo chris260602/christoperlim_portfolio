@@ -31,5 +31,12 @@
     "link":"https://www.vidio.com/",
     "type": "Work",
     "desc": "Worked as a Frontend Engineer to create quality code, following TDD Principles and updating old code to match with eslint rules."
+  },
+  {
+    "title": "Fullstack Engineer at SGSM Technologies Pte Ltd",
+    "image": "assets/images/sgsm.png",
+    "link":"https://www.sgsmtech.com/",
+    "type": "Work",
+    "desc": "Worked as a Fullstack Engineer to create User Interface & API while practicing clean code."
   }
 ]

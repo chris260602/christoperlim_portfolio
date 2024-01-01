@@ -53,7 +53,7 @@ const Home = () => {
                 <Typewriter
                   options={{
                     strings: [
-                      "Front End Web Developer",
+                      "Fullstack Engineer",
                       "Undergraduate Student",
                     ],
                     autoStart: true,
@@ -84,7 +84,7 @@ const Home = () => {
             <h2>About Me</h2>
             <p className={"p1"}>
               I’m Christoper Lim, a student at Bina Nusantara university,
-              majoring in Computer Science. Building websites using ReactJS. But
+              majoring in Computer Science. Building websites using ReactJS or NuxtJS and using Laravel to make APIs. But
               i also like to explore new technologies that i can use to make my
               development experience much easier and enjoyable.
               <br />
