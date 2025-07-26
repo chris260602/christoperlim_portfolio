@@ -1,5 +1,31 @@
 [
   {
+    "title": "Frontend Engineer at Vidio",
+    "image": "assets/images/vidio.png",
+    "link":"https://www.vidio.com/",
+    "type": "Work",
+    "desc": "Worked as a Frontend Engineer to create quality code, following TDD Principles and updating old code to match with eslint rules."
+  },
+  {
+    "title": "Fullstack Engineer at SGSM Technologies Pte Ltd",
+    "image": "assets/images/sgsm.png",
+    "link":"https://www.sgsmtech.com/",
+    "type": "Work",
+    "desc": "Worked as a Fullstack Engineer to create User Interface & API while practicing clean code."
+  },
+  {
+    "title": "Mony",
+    "image": "assets/images/mony.png",
+    "type": "Personal",
+    "desc": "Mony is an intelligent personal finance web application designed to empower users with a clear understanding of their spending habits. Built as a full-stack project, it allows for seamless expense tracking and provides insightful, data-driven analytics."
+  },
+  {
+    "title": "Qnails",
+    "image": "assets/images/qnails.png",
+    "type": "Freelance",
+    "desc": "QNails is a comprehensive, full-stack web application designed to streamline the daily operations of a modern nail salon. It serves as an all-in-one platform for owners and staff to manage every aspect of the business with efficiency and clarity."
+  },
+  {
     "title": "Teacher at BNCC",
     "image": "assets/images/teacher.jpg",
     "link": "https://bncc.net/",
@@ -24,19 +50,5 @@
     "image": "assets/images/hansanesia.png",
     "type": "Freelance",
     "desc": "A freelance project to create a company profile using ReactJS."
-  },
-  {
-    "title": "Frontend Engineer at Vidio",
-    "image": "assets/images/vidio.png",
-    "link":"https://www.vidio.com/",
-    "type": "Work",
-    "desc": "Worked as a Frontend Engineer to create quality code, following TDD Principles and updating old code to match with eslint rules."
-  },
-  {
-    "title": "Fullstack Engineer at SGSM Technologies Pte Ltd",
-    "image": "assets/images/sgsm.png",
-    "link":"https://www.sgsmtech.com/",
-    "type": "Work",
-    "desc": "Worked as a Fullstack Engineer to create User Interface & API while practicing clean code."
   }
 ]

@@ -52,10 +52,7 @@ const Home = () => {
                 I’m A{" "}
                 <Typewriter
                   options={{
-                    strings: [
-                      "Fullstack Engineer",
-                      "Undergraduate Student",
-                    ],
+                    strings: ["Fullstack Engineer"],
                     autoStart: true,
                     loop: true,
                   }}
@@ -83,17 +80,20 @@ const Home = () => {
           <div className={classes.aboutContainerContent}>
             <h2>About Me</h2>
             <p className={"p1"}>
-              I’m Christoper Lim, a student at Bina Nusantara university,
-              majoring in Computer Science. Building websites using ReactJS or NuxtJS and using Laravel to make APIs. But
-              i also like to explore new technologies that i can use to make my
-              development experience much easier and enjoyable.
+              I'm Christoper Lim, a Full-Stack Engineer specializing in
+              building seamless and efficient web applications. My expertise
+              lies in crafting dynamic, responsive front-end experiences with
+              frameworks like Next.js and Nuxt.js (built on React and Vue). On
+              the back-end, I architect and develop robust, scalable APIs using
+              Laravel.
               <br />
               <br />
-              By Challenging myself to create something that i’ve never made
-              before. I am able to improve and learn new skills.
+              I am passionate about exploring emerging technologies to enhance
+              my workflow and deliver exceptional results. I believe that true
+              growth comes from challenging myself with new projects that push
+              the boundaries of my current skill set.
               <br />
               <br />
-              Besides making websites, i also enjoy traveling and photography.
             </p>
           </div>
           <div className={classes.aboutContainerImage}>
